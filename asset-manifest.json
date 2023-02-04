@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Library-Manager/static/css/main.370ef818.css",
+    "main.js": "/Library-Manager/static/js/main.d06c9cb1.js",
+    "static/media/book.png": "/Library-Manager/static/media/book.90fb8866d443b17dd50f.png",
+    "static/media/open-book (2).png": "/Library-Manager/static/media/open-book (2).024ae0ad8fa3f2c7ed45.png",
+    "static/media/logo.svg": "/Library-Manager/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Library-Manager/index.html",
+    "main.370ef818.css.map": "/Library-Manager/static/css/main.370ef818.css.map",
+    "main.d06c9cb1.js.map": "/Library-Manager/static/js/main.d06c9cb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.370ef818.css",
+    "static/js/main.d06c9cb1.js"
+  ]
+}
