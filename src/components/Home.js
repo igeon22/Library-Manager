@@ -3,10 +3,12 @@ import {BrowserRouter as Router,Routes,Route,useNavigate} from 'react-router-dom
 
 function Home(props){
 	const navigate = useNavigate()
-	const login=()=>{
+	const login=(e)=>{
+		e.preventDefault()
 		navigate('/log-in')
 	}
-	const signUp=()=>{
+	const signUp=(e)=>{
+		e.preventDefault()
 		navigate('/sign-up')
 	}
 	return(
