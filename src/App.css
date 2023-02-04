@@ -1,0 +1,315 @@
+body{
+	font-family: calibri;
+	font-weight: bold;
+}
+
+.home-icon{
+	display: block;
+	width: 25px;
+	height: 25px;
+}
+
+
+header{
+	border-bottom: 2px solid grey;
+}
+
+.nav-btns{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 0;
+	gap: 10px;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+
+.nav-btn{
+	display: block;
+	text-decoration:none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px grey;
+	background-color: #a16207;
+	width: 60px;
+
+}
+
+.welcome{
+	color: #955a07;
+	font-size: 1.18em;
+}
+
+.name{
+	font-style: italic;
+}
+
+.nav-btn:hover{
+	transition: 0.30s opacity ease;
+	transition: 0.30s text-decoration ease;
+	text-decoration: underline;
+	opacity: 0.9;
+}
+
+.log{
+
+}
+
+.icon-main{
+	width: 40px;
+	height: 40px;
+}
+
+
+.icon-second{
+	width: 25px;
+	height: 25px;
+}
+
+.other-btn{
+	gap: 30px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.sec-title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+#home{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 1.6em;
+	margin-bottom: 20px;
+}
+
+#main-title{
+	color: #a16207;
+	text-decoration: none;
+	font-style: italic;
+	text-align: center;
+}
+
+header{
+	padding: 15px 10px;
+}
+
+.title{
+	margin: 0;
+}
+
+.form-container{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+
+.user-form-log{
+	width: 290px;
+	padding: 10px;
+	height: 340px;
+	margin: auto;
+	background-color: #cc7b0a;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px gray;
+}
+
+.block-cont{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-title{
+	color: white;
+	text-align: center;
+}
+
+.form-label{
+	display: block;
+	color: white;
+	width: 268px;
+}
+
+.form-input{
+	margin-bottom: 30px;
+	width: 260px;
+	color: black;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+
+.form-input:focus{
+	outline: none;
+}
+
+.submit-btn{
+	display: block;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 1.06em;
+	border: none;
+	border-radius: 8px;
+	width: 120px;
+	padding: 5px 0;
+	margin: 10px  auto;
+	box-shadow: 2px 2px 2px #955a07;
+}
+
+.alert-text{
+	color: white;
+	text-align: center;
+	visibility: visible;
+}
+
+.ot{
+	width: 269px;
+	margin: auto;
+}
+
+.link{
+	margin: auto;
+	visibility: visible;
+	color: white;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.link:hover{
+	transition: 0.30s opacity ease;
+	opacity: 0.9;
+}
+
+
+
+
+
+.submit-btn:hover{
+	opacity: 0.9;
+	transition: 0.24s opacity  ease;
+}
+
+.home-page{
+	width: 90%;
+	padding: 10px;
+	margin: auto;
+	color: rgb(127, 133, 135);
+}
+
+.home-title{
+	margin-top: 20px;
+	color: #955a07;
+	text-align: center;
+}
+
+.home-text{
+	margin: 0;
+}
+
+.link-start{
+	text-decoration: underline;
+	color: blue;
+}
+
+.about{
+	width: 300px;
+	background-color: #955a07;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px grey;
+	padding: 10px;
+}
+
+.en{
+	color: white;
+}
+
+.about-container{
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.check{
+	display: flex;
+	align-items: center;
+}
+
+
+.books-container{
+	width: 80%;
+	margin: auto;
+}
+
+
+.book-block{
+	background-color: #ac6d15;
+	padding:5px  6px;
+	margin-bottom: 10px;
+	color: white;
+	box-shadow: 2px 2px 2px grey;
+	border-radius: 5px;
+}
+
+.book-title{
+	color: white;
+	margin: 0;
+	
+
+}
+
+
+
+.library-icon{
+	background-color: #ac6d15;
+	width: 103px;
+	height: 103px;
+}
+
+
+.btn-cont{
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.del-btn{
+	margin: 0;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border-radius: 50%;
+	background: rgb(238, 238, 238);
+	color: black;
+}
+
+
+.del-btn:hover{
+	background-color: black;
+	color: white;
+	transition: 0.24s color ease;
+}
+
+.add-book{
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
